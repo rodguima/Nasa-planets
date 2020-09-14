@@ -1,0 +1,39 @@
+.footer {
+  position: absolute;
+  bottom: 1.3rem;
+  font-family: "roboto", sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+}
+
+.prev {
+  display: flex;
+  align-items: center;
+  width: 7rem;
+}
+
+.expl {
+  display: flex;
+  align-items: center;
+  width: 12rem;
+  text-align: right;
+}
+
+span {
+  display: flex;
+  font-size: 2rem;
+  padding: 0 1.2rem;
+}
+
+p {
+  font-size: 18px;
+}

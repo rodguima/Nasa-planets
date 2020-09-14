@@ -1,0 +1,48 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 5rem;
+  padding-bottom: 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  height: 100%;
+}
+
+.title {
+  margin-left: .3rem;
+  padding: 0 1.8rem;
+  line-height: 1.1;
+  height: auto;
+  border-left: .8rem solid #fff;
+}
+
+.date {
+  margin-bottom: 2rem;
+}
+
+h1,
+h3,
+h5 {
+  color: #fff;
+  font-family: "roboto condensed", sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: normal;
+}

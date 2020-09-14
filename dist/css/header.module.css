@@ -1,0 +1,56 @@
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 5rem;
+  padding: 0 5vw;
+  z-index: 1;
+}
+
+.nav::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 5rem;
+  width: 100vw;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  z-index: -1;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  margin: 0.2rem;
+  padding: 1rem 3.5rem;
+  text-decoration: none;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 1rem;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "roboto";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-item:hover {
+  color: #a22d2d;
+}
+
+.nasa-btn {
+  width: 5.5rem;
+  margin-left: 1rem;
+}
+
+.img-logo {
+  width: 5rem;
+}
