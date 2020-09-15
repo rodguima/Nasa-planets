@@ -3,17 +3,16 @@ import React from "react"
 import Layout from "../components/layout"
 import Main from "../components/main"
 
-const IndexPage = ({ pageContext }) => {
-  console.log(pageContext)
+function IndexPage({ pageContext }) {
+
+  // console.log('context', pageContext)
+
   return (
-    <Layout>
-      <Main />
+    <Layout url={pageContext.result.url}>
+      <Main title={pageContext.result.title} date={pageContext.result.date}/>
     </Layout>
   )
 }
 
 export default IndexPage
 
-/* <Layout url={url}>
-    {/* <div>{pageContext.result}</div> */
-// <Main title={title} date={date} explanation={explanation} />

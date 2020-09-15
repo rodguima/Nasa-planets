@@ -9,7 +9,7 @@ function Header() {
     <header>
       <nav className={headerStyles.nav}>
         <div className={headerStyles.logo}>
-          <a href="/#">
+          <a href="/https://api.nasa.gov">
             <img src={NasaLogo} alt="logo" className={headerStyles.imgLogo} />
           </a>
         </div>

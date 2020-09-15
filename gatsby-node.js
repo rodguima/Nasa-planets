@@ -9,11 +9,12 @@
 const fetch = require("node-fetch")
 
 exports.createPages = async ({ actions: { createPage } }) => {
-  const dates = ["2020-08-30", "2020-08-29"]
+  const dates = ["2020-08-30", "2020-08-29", "2020-08-28", "2020-08-27", "2020-08-26"]
   const results = []
 
   for (let date of dates) {
     console.log("date", date)
+
     const data = await fetch(
       `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&date=${date}`
     )

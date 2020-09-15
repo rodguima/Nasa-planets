@@ -40,6 +40,7 @@
   font-family: "roboto";
   font-weight: 400;
   font-size: 16px;
+  text-shadow: -2px 2px 2px #282828;
 }
 
 .nav-item:hover {
