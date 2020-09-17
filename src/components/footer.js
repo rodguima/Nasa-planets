@@ -1,24 +1,24 @@
-import React from "react"
-import { AiOutlineInfoCircle } from 'react-icons/Ai';
-import { BiLeftArrow } from 'react-icons/Bi';
+import React, { Component } from "react"
+
+import { BiLeftArrow } from "react-icons/Bi"
 
 import footerStyles from "./footer.module.scss"
 
-function Footer() {
-  return (
-    <footer className={footerStyles.footer}>
-      <div className={footerStyles.container}>
-        <div className={footerStyles.prev}>
-        <span className={footerStyles.spanLeft}><BiLeftArrow /></span>
-          <p>Yesterday's Picture</p>
+class Footer extends Component {
+  render() {
+    return (
+      <footer className={footerStyles.footer}>
+        <div className={footerStyles.container}>
+          <div className={footerStyles.footerBtnLeft}>
+            <span className={footerStyles.spanLeft}>
+              <BiLeftArrow />
+            </span>
+            <p className={footerStyles.footerP}>Yesterday's Picture</p>
+          </div>
         </div>
-        <div className={footerStyles.expl}>
-          <p>Today's Picture Explanation</p>
-        <span className={footerStyles.spanRight}><AiOutlineInfoCircle /></span>
-        </div>
-      </div>
-    </footer>
-  )
+      </footer>
+    )
+  }
 }
 
 export default Footer

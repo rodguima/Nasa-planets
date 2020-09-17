@@ -1,0 +1,16 @@
+.section-explanation {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: green;
+}
+
+.container {
+  position: absolute;
+  width: 30vw;
+  height: 50vh;
+  right: 0;
+  margin: auto 0rem;
+  background: red;
+}
